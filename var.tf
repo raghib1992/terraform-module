@@ -3,11 +3,11 @@ variable "REGION" {
 }
 
 variable "PUBLIC_KEY" {
-    default = "test-key.pub"  
+    default = "mykey.pub"  
 }
 
 variable "PRIVATE_KEY" {
-    default = "test-key.pem"  
+    default = "mykey.pem"  
 }
 
 variable "AMIS" {
